@@ -1,0 +1,22 @@
+{
+    "name": "hungnm28/translate",
+    "description": "This package used for translate text using google translate api",
+    "type": "library",
+    "require": {
+        "google/apiclient": ">=2.7",
+        "google/cloud-translate": ">=1.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hungnm28\\Translate\\": "src/"
+        },
+        "files": ["src/Helpers/functions.php"]
+    },
+    "authors": [
+        {
+            "name": "HungNM28"
+        }
+    ],
+    "minimum-stability": "dev"
+}
